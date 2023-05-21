@@ -1,0 +1,102 @@
+name: EventCore
+version: '${project.version}'
+main: net.cloakmc.eventcore.EventCore
+api-version: 1.19
+author: CloakMC
+description: A system for managing events
+depend:
+  - PlaceholderAPI
+  - DeathMessages
+commands:
+  dashboard:
+    description: Open the event dashboard
+    usage: /<command>
+    permission: event.admin
+    aliases:
+      - dash
+  savekit:
+    description: Save the event kit
+    usage: /<command>
+    permission: event.admin
+  loadkit:
+    description: Load your own kit
+    usage: /<command>
+    permission: event.admin
+  setborder:
+    description: Sets the border
+    usage: /<command> <radius>
+    permission: event.admin
+  shrinkborder:
+    description: Shrinks the border
+    usage: /<command> <distance> [time]
+    permission: event.admin
+    aliases:
+      - shrink
+  expandborder:
+    description: Shrinks the border
+    usage: /<command> <distance> [time]
+    permission: event.admin
+    aliases:
+      - expand
+
+  kickspectators:
+    description: Kicks all players in spectator
+    usage: /<command>
+    permission: event.admin
+  alive:
+    description: Shows you how many players are left alive
+    usage: /<command>
+    permission: event.player
+    aliases:
+      - players
+      - playersalive
+  discord:
+    description: Gives discord link
+    usage: /<command>
+    permission: event.player
+  help:
+    description: Gives info about the event
+    usage: /<command>
+    permission: event.player
+  spread:
+    description: Spread out all players
+    usage: /<command>
+    permission: event.admin
+  setbuildlimit:
+    description: Update the build height limit
+    usage: /<command> <height>
+    permission: event.admin
+  clearspawn:
+    description: Removes the event spawn
+    usage: /<command>
+    permission: event.admin
+#  rekit:
+#     description: Your description
+#     usage: /<command>
+#     permission: event.player
+  top:
+    description: Your description
+    usage: /<command>
+    permission: event.player
+    aliases:
+      - topkills
+      - kills
+
+  #
+  #permissions:
+#  event:
+#    children:
+#      - bypass
+#      - player
+#      - admin
+#      - staff
+
+
+  # rekit:
+  #   description: Your description
+  #   usage: /<command>
+  #   permission: event.player
+  #top:
+  #  description: Your description
+  #  usage: /<command>
+  #  permission: event.player
