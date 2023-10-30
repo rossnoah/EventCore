@@ -1,12 +1,15 @@
 name: EventCore
 version: '${project.version}'
-main: net.cloakmc.eventcore.EventCore
+main: dev.noah.eventcore.EventCore
 api-version: 1.19
-author: CloakMC
+author: Noah Ross
 description: A system for managing events
 depend:
   - PlaceholderAPI
   - DeathMessages
+softdepend:
+  - WorldEdit
+  - WorldGuard
 commands:
   dashboard:
     description: Open the event dashboard
