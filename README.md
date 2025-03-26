@@ -1,6 +1,8 @@
 
 # EventCore
 
+## [Join the discord for more information and support: Discord](https://discord.gg/5djuBSKWuV)
+
 EventCore is a [Paper](https://github.com/PaperMC/Paper) plugin that helps administrators run last man standing style events in Minecraft. It features a system for kits, player teleporting, death handling, border shrinking and more!
 
 ## Dependencies
