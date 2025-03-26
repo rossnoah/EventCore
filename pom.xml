@@ -86,7 +86,7 @@
         <dependency>
             <groupId>com.github.rossnoah</groupId>
             <artifactId>DeathMessages</artifactId>
-            <version>7195d0f</version>
+            <version>06e1de883f</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
