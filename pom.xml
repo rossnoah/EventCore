@@ -51,7 +51,6 @@
             </resource>
         </resources>
     </build>
-
     <repositories>
         <repository>
             <id>papermc-repo</id>
@@ -63,7 +62,11 @@
         </repository>
         <repository>
             <id>placeholderapi</id>
-            <url>https://repo.extendedclip.com/content/repositories/placeholderapi/</url>
+            <url>https://repo.extendedclip.com/releases/</url>
+        </repository>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
         </repository>
     </repositories>
 
@@ -84,6 +87,12 @@
             <groupId>dev.mrshawn.deathmessages</groupId>
             <artifactId>DeathMessages</artifactId>
             <version>1.4.15</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.github.rossnoah</groupId>
+            <artifactId>DeathMessages</artifactId>
+            <version>7195d0f</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
