@@ -3,14 +3,21 @@
 
 ## [Join the discord for more information and support: Discord](https://discord.gg/5djuBSKWuV)
 
-EventCore is a [Paper](https://github.com/PaperMC/Paper) plugin that helps administrators run last man standing style events in Minecraft. It features a system for kits, player teleporting, death handling, border shrinking and more!
+EventCore is a Paper plugin that helps administrators run last man standing style events in Minecraft. It features a system for kits, player teleporting, death handling, border shrinking and more!
 
 ## Dependencies
 
-EventCore requires the PlaceholderAPI and DeathMessages plugins and works best with the WorldGuard and WorldEdit plugins as well.
+EventCore requires PlaceholderAPI and works best with the WorldGuard and WorldEdit plugins as well.
 
-EventCore was built on Java 20 for Minecraft version 1.19 but should work with any version of 1.19 or above.
+## Compatibility
 
+EventCore supports [Paper](https://github.com/PaperMC/Paper) versions 1.20.4 and above.
+
+## Usage
+
+The plugin was designed for use in large scale events and requires significant setup. It is designed to be used on a which is reset externally for each event (restoring a backup of the prepared event server).
+
+More docs will be added in the future.
 ## Installation
 
 EventCore has a minimal configuration that is primarily used for the server's branding.

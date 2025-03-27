@@ -1,12 +1,11 @@
 name: EventCore
 version: '${project.version}'
 main: dev.noah.eventcore.EventCore
-api-version: 1.19
+api-version: 1.20
 author: Noah Ross
 description: A system for managing events
 depend:
   - PlaceholderAPI
-  - DeathMessages
 softdepend:
   - WorldEdit
   - WorldGuard

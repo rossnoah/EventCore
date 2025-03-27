@@ -21,10 +21,8 @@ import dev.noah.eventcore.commands.*;
 import dev.noah.eventcore.gui.GUIListener;
 import dev.noah.eventcore.listener.*;
 import dev.s7a.base64.Base64ItemStack;
-import dev.noah.eventcore.commands.*;
-import dev.noah.eventcore.hooks.DeathMessagesKillListener;
+import dev.noah.eventcore.hooks.CustomKillListener;
 import dev.noah.eventcore.hooks.PlaceholderAPIExpansion;
-import dev.noah.eventcore.listener.*;
 import dev.noah.eventcore.util.GamemodeUtil;
 import dev.noah.eventcore.util.SchedulerUtils;
 import net.kyori.adventure.text.Component;
@@ -143,7 +141,7 @@ public final class EventCore extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new PreventBlockItemDrops(),this);
         getServer().getPluginManager().registerEvents(new AntiVoidDamage(),this);
         getServer().getPluginManager().registerEvents(new DeathListener(),this);
-        getServer().getPluginManager().registerEvents(new DeathMessagesKillListener(),this);
+        getServer().getPluginManager().registerEvents(new CustomKillListener(),this);
         getServer().getPluginManager().registerEvents(new HungerListener(),this);
     }
     public static void saveData(){
